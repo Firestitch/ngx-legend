@@ -1,0 +1,14 @@
+.shape {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  margin-right: 7px;
+}
+
+:host {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 90%;
+  height: 25px;
+}

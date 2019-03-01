@@ -1,11 +1,11 @@
 {
-  "name": "@firestitch/package",
-  "title": "package.json -> Rename Title to Component Title",
-  "description": "@firestitch/package",
-  "version": "0.1.0",
+  "name": "@firestitch/legend",
+  "title": "Legend",
+  "description": "@firestitch/legend",
+  "version": "7.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Firestitch/ngx-package"
+    "url": "https://github.com/Firestitch/ngx-legend"
   },
   "author": {
     "name": "Firestitch",
@@ -16,7 +16,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Firestitch/ngx-package/issues"
+    "url": "https://github.com/Firestitch/ngx-legend/issues"
   },
   "main": "package/index.js",
   "typings": "package/index.d.ts",
@@ -45,7 +45,7 @@
     "@angular/platform-browser-dynamic": "^7.2.5",
     "@angular/router": "^7.2.6",
     "@compodoc/compodoc": "^1.1.8",
-    "@firestitch/example": "^0.6.0",
+    "@firestitch/example": "^7.0.0",
     "@firestitch/iframe": "^0.2.0",
     "@firestitch/message": "^0.2.1",
     "codelyzer": "^4.5.0",
