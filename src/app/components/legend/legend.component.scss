@@ -6,9 +6,18 @@
   ::ng-deep {
     .fs-legend-item {
       margin-right: 25px;
+      border-radius: 2px;
 
       &:last-child {
         margin-right: 0;
+      }
+    }
+  }
+
+  &.shape-circle {
+    ::ng-deep {
+      .fs-legend-item .shape {
+        border-radius: 50%;
       }
     }
   }
