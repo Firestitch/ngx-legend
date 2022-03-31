@@ -18,7 +18,7 @@ import { FsLegendItemComponent } from './components/legend-item/legend-item.comp
   ]
 })
 export class FsLegendModule {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<FsLegendModule> {
     return {
       ngModule: FsLegendModule
     };
