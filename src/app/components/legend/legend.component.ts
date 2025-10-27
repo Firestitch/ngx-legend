@@ -2,9 +2,10 @@ import { Component, Input, HostBinding, OnChanges, SimpleChanges } from '@angula
 
 
 @Component({
-  selector: 'fs-legend',
-  template: '<ng-content></ng-content>',
-  styleUrls: [ 'legend.component.scss' ],
+    selector: 'fs-legend',
+    template: '<ng-content></ng-content>',
+    styleUrls: ['legend.component.scss'],
+    standalone: true,
 })
 export class FsLegendComponent implements OnChanges {
 
